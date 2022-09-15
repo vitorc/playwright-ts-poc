@@ -1,0 +1,16 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --reporter=line,allure-playwright",
+    "parallel-test": "npx playwright test --headed --workers 3 --reporter=line,allure-playwright"
+  },
+  "author": "Vitor C",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.25.2",
+    "allure-playwright": "^2.0.0-beta.19"
+  }
+}
