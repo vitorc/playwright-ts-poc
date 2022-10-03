@@ -168,11 +168,7 @@ node_modules/
 /playwright-report/
 /playwright/.cache/
 #folders
-/UI_Test/.vscode/
-/UI_Test/tests-examples/
-/UI_Test/allure-results/
-/UI_Test/playwright-report/
-/API_Test/.vscode/
-/API_Test/tests-examples/
-/API_Test/allure-results/
-/API_Test/playwright-report/
+/.vscode/ 
+/tests-examples/
+/allure-results/
+/playwright-report/
