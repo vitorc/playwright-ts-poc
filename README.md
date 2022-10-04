@@ -53,4 +53,4 @@ In the playwright.config we use baseURL to define a default URL and in the tests
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2021 © <a href="https://www.linkedin.com/in/vitor-cardoso-" target="_blank">Vitor Cardoso</a>.
+- Copyright 2022 © <a href="https://www.linkedin.com/in/vitor-cardoso-" target="_blank">Vitor Cardoso</a>.
