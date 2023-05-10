@@ -6,7 +6,7 @@
 
 - [About project](#about-project)
 - [Configuration](#configuration)
-- [Instal](#instal)
+- [Install](#instal)
 - [How to test](#how-to-testar)
 
 ---
@@ -24,7 +24,7 @@ In the playwright.config we use baseURL to define a default URL and in the tests
 - [Instalar Node.js 16+](https://nodejs.org/)
 - [Instal Playwright](https://playwright.dev/docs/intro#installing-playwright)
 
-## Instalacao
+## Install
 
 > Clone project
 
