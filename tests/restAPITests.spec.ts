@@ -1,10 +1,13 @@
 import { test, expect } from '@playwright/test';
 
+// Testing GET request
 test('should get something', async({request, baseURL})=>{
   const newGet = await request.get(`${baseURL}api/users/3`)
   console.log(await newGet.json())
   expect(newGet.status()).toBe(200)
 })
+
+// Testing POST request
 test('should post something', async ({request,baseURL}) => {
   const newPost = await request.post(`${baseURL}api/users`,{
     data: {name:"morpheus", 
@@ -15,6 +18,8 @@ test('should post something', async ({request,baseURL}) => {
   expect(respBody.createdAt).toBeTruthy()
   expect(newPost.status()).toBe(201)
 })
+
+// Testing PUT request
 test('should put something', async({request, baseURL})=>{
   const newPut = await request.put(`${baseURL}api/users/3`,{
     data:{name:"Vitasdasdor",
@@ -25,6 +30,8 @@ test('should put something', async({request, baseURL})=>{
   console.log(respBody)
   expect(newPut.status()).toBe(200)
 })
+
+// Testing Delete request
 test('should delete something',async({request, baseURL})=>{
   const newDelete = await request.delete(`${baseURL}api/users/3`)
   expect(newDelete.status()).toBe(204)
