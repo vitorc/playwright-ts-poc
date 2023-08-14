@@ -1,0 +1,8 @@
+version: '3'
+services:
+  playwright-tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./testReport:/app/testReport

@@ -11,7 +11,6 @@ test('should post something', async ({request,baseURL}) => {
            job: "leader"},
   },)
   const respBody = JSON.parse(await newPost.text())
-  // console.log(respBody)
   expect(respBody.name).toBe("morpheus")
   expect(respBody.createdAt).toBeTruthy()
   expect(newPost.status()).toBe(201)
@@ -22,7 +21,6 @@ test('should put something', async({request, baseURL})=>{
           job: "QA Specialiasdasdasdst"}
   })
   const respBody = JSON.parse(await newPut.text())
-  // expect(respBody.createdAt).toBeTruthy()
   expect(respBody.name).toBe("Vitasdasdor")
   console.log(respBody)
   expect(newPut.status()).toBe(200)

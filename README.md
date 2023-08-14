@@ -1,40 +1,39 @@
 ---
-# POC Playwrith for API aplication
+# POC Playwright for API application
 ---
 
-## Sumary
+## Summary
 
 - [About project](#about-project)
 - [Configuration](#configuration)
-- [Install](#instal)
-- [How to test](#how-to-testar)
-
+- [Install](#install)
+- [How to Test](#how-to-test)
 ---
 ## About Project
 
-In this POC we will work in an mocked API application free for personal tests [reqres](https://reqres.in/) using [playwright](https://playwright.dev/) framework to do 
+In this POC we will work in a mocked API application free for personal test [reqres](https://reqres.in/) using [playwright](https://playwright.dev/) framework to do 
 this tests.
-In this test we use this verbs (GET, POST, PUT and Delete) to validate Http status and some payload texts.
-In the playwright.config we use baseURL to define a default URL and in the tests we use the endpoints for the tests.
+In this test we use these verbs (GET, POST, PUT and Delete) to validate Http status and some payload texts.
+In the playwright.config we use baseURL to define a default URL and in the tests, we use the endpoints for the tests.
 
 ---
 
 ## Configuration
 
-- [Instalar Node.js 16+](https://nodejs.org/)
-- [Instal Playwright](https://playwright.dev/docs/intro#installing-playwright)
+- [Install Node.js 16+](https://nodejs.org/)
+- [Install Playwright](https://playwright.dev/docs/intro#installing-playwright)
 
 ## Install
 
-> Clone project
+**Clone the project**
 
 `https://github.com/vitorc/playwright-ts-poc.git`
 
->Access path playwright-ts-poc:
+Access path playwright-ts-poc:
 
 `cd ../playwright-ts-poc`
 
-> Dependencies instal:
+Dependencies install:
 
 `npm install`
 
@@ -42,9 +41,16 @@ In the playwright.config we use baseURL to define a default URL and in the tests
 
 ## How to Test:
 
-> Run test:
+Testing Locally:
 
 `npm run test`
+
+Testing using Docker:
+
+Install [docker](https://docs.docker.com/desktop/?_gl=1*1ln6akm*_ga*MTM2Njg1NTQ4My4xNjgyNjg5NzA0*_ga_XJWPQMJYHQ*MTY5MjA0MDgyMS44LjEuMTY5MjA0MDgzMS41MC4wLjA.)
+
+Run the command below to build and start the Docker:
+`docker-compose up --build`
 
 ---
 
@@ -53,4 +59,4 @@ In the playwright.config we use baseURL to define a default URL and in the tests
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2022 © <a href="https://www.linkedin.com/in/vitor-cardoso-" target="_blank">Vitor Cardoso</a>.
+- Copyright 2023 © <a href="https://www.linkedin.com/in/vitor-cardoso-" target="_blank">Vitor Cardoso</a>.

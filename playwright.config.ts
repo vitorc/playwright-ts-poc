@@ -8,8 +8,7 @@ const config: PlaywrightTestConfig = {
     timeout: 5000
   },
   use:{
-          baseURL:'https://reqres.in/',
-          // baseURL:"https://playwright.dev",
+          baseURL:'https://reqres.in/',           
           extraHTTPHeaders: {
             'Accept': 'application/json'
           },
