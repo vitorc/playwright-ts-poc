@@ -33,6 +33,10 @@ Access path playwright-ts-poc:
 
 `cd ../playwright-ts-poc`
 
+Playwright install:
+
+`npx playwright install`  
+
 Dependencies install:
 
 `npm install`
